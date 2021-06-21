@@ -1,0 +1,154 @@
+body{
+    margin:0;
+}
+h1{
+    font-family:'Sacramento',sans-serif;
+    font-weight:bold;
+    font-size: 3.5rem;
+}
+h2,p{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-weight:bold;
+    
+}
+h4{
+    font-family: 'IBM Plex Sans',
+    sans-serif;
+    font-weight:bold;
+}
+
+#navigation {
+    width: 100%;
+    position:fixed;
+    z-index: 4;
+}
+.navbar{
+    background-color: rgb(78, 76, 76);
+    color: #fff;
+}
+#title{
+    background-color:skyblue;
+    padding-top:5%;
+    text-align: center;
+    width: 100%;
+    height: 33rem;
+    position: relative;
+}
+.top-cloud{
+    position: absolute;
+    right:20%;
+    top:20%;
+    z-index:2;
+    animation: animate-top linear 25s infinite;
+    }
+
+    @keyframes animate-top {
+        0% {
+            position: absolute;
+            right: 10%;
+            top: 20%;
+        }
+
+        50% {
+            position: absolute;
+            right: 70%;
+            top: 20%;
+        }
+
+        100% {
+            position: absolute;
+            right: 10%;
+            top: 20%;
+        }
+    }
+.intro{
+    position: relative;
+    padding-top:5rem;
+    z-index: 3;
+}
+.bottom-cloud{
+    position: absolute;
+    right:73%;
+    top:37%;
+    animation: animate-bottom linear 25s infinite;
+    }
+
+    @keyframes animate-bottom {
+        0% {
+            position: absolute;
+            right: 73%;
+            top: 37%;
+        }
+
+        50% {
+            position: absolute;
+            right: 10%;
+            top: 37%;
+        }
+
+        100% {
+            position: absolute;
+            right: 73%;
+            top: 37%;
+        }
+    }
+
+.mountain{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: 1;
+}
+#profile{
+    padding:1.5rem 2rem;
+    text-align: center;  
+}
+#skills{
+    text-align: center;
+    padding:1rem 2rem;
+    background-color:skyblue;
+}
+.skilli:hover{
+    color:rgb(3, 63, 87);
+}
+
+#contact{
+    text-align: center;
+    padding:1rem 2rem 3rem 1rem;
+}
+#footer,.footer-para{
+    text-align:center;
+    background-color:rgb(51, 50, 50);
+    margin-bottom:0;
+    color: rgb(146, 146, 146);
+}
+.fa-2x{
+    font-size: 1.5rem;
+    padding:2rem 1rem 1rem 1rem;
+    color: rgb(189, 183, 183);
+    
+}
+@media (max-width: 600px){
+    #title{
+        height:28rem;
+    }
+    .top-cloud{
+        display: none;
+        visibility: hidden;
+    }
+    .bottom-cloud{
+        display: none;
+        visibility: hidden;
+    }
+    .intro{
+        padding-top:8rem;
+    }
+}
+@media (max-width: 1000px){
+    .fa-2x{
+        font-size:1rem;
+    }
+}
+  

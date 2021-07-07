@@ -18,6 +18,9 @@ h4{
     sans-serif;
     font-weight:bold;
 }
+a{
+    text-decoration:none;
+}
 
 #navigation {
     width: 100%;

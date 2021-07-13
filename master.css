@@ -116,7 +116,9 @@ a{
 .skilli:hover{
     color:rgb(3, 63, 87);
 }
-
+.skill-column{
+    text-decoration:none;
+}
 #contact{
     text-align: center;
     padding:1rem 2rem 3rem 1rem;

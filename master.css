@@ -20,10 +20,11 @@ h4{
 }
 a{
     text-decoration:none;
-    color:black;
+    color:#000;
 }
 a:hover{
     text-decoration:none;
+    color:#000;
 }
 
 #navigation {
